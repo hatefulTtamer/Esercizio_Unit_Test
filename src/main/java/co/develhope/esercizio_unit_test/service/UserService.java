@@ -33,7 +33,7 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public void deleteUser (long id) {
+    public void deleteUserById (long id) {
         userRepository.deleteById(id);
     }
 }
